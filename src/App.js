@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Second from './landingpages/Second';
 import Third from './landingpages/Third';
 import Fourth from './landingpages/Fourth';
+import Fifth from './landingpages/Fifth';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
           <Route path="/first" element={<First />} />
           <Route path="/second" element={<Second />} />
           <Route path="/third" element={<Third />} />
-          <Route path="/" element={<Fourth />} />
+          <Route path="/fourth" element={<Fourth />} />
+          <Route path="/" element={<Fifth />} />
         </Routes>
       </BrowserRouter>
     </div>
