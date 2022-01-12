@@ -4,6 +4,8 @@ import Second from './landingpages/Second';
 import Third from './landingpages/Third';
 import Fourth from './landingpages/Fourth';
 import Fifth from './landingpages/Fifth';
+import Home from './Home';
+import DFirst from './dashboard/DFirst';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
           <Route path="/second" element={<Second />} />
           <Route path="/third" element={<Third />} />
           <Route path="/fourth" element={<Fourth />} />
-          <Route path="/" element={<Fifth />} />
+          <Route path="/fifth" element={<Fifth />} />
+          <Route path="/dashboard/first" element={<DFirst />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
