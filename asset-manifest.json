@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/ui-with-react/static/css/main.2f942000.css",
+    "main.js": "/ui-with-react/static/js/main.a0fcf3f3.js",
+    "static/media/Burger.png": "/ui-with-react/static/media/Burger.5e0d5c6bc8ff601e84b4.png",
+    "static/media/Instagram.png": "/ui-with-react/static/media/Instagram.6030a8815dc4d150b086.png",
+    "static/media/Sk-Modernist-Regular.otf": "/ui-with-react/static/media/Sk-Modernist-Regular.748466dca5113482a27f.otf",
+    "static/media/CreativeCloud.png": "/ui-with-react/static/media/CreativeCloud.8acfb44a4db42a19ebde.png",
+    "static/media/Figma.png": "/ui-with-react/static/media/Figma.72fbc535ebe253a5dbc4.png",
+    "static/media/Paypal.png": "/ui-with-react/static/media/Paypal.25b341e7e8db7bd5e1e5.png",
+    "index.html": "/ui-with-react/index.html",
+    "main.2f942000.css.map": "/ui-with-react/static/css/main.2f942000.css.map",
+    "main.a0fcf3f3.js.map": "/ui-with-react/static/js/main.a0fcf3f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f942000.css",
+    "static/js/main.a0fcf3f3.js"
+  ]
+}
