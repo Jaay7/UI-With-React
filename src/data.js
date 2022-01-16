@@ -6,37 +6,37 @@ export default
         "id": "01",
         "title": "First",
         "description": "This is the first landing page",
-        "link": "/first",
+        "link": "/UI-With-React/first",
       },
       {
         "id": "02",
         "title": "Second",
         "description": "This is the second landing page",
-        "link": "/second",
+        "link": "/UI-With-React/second",
       },
       {
         "id": "03",
         "title": "Third",
         "description": "This is the third landing page",
-        "link": "/third",
+        "link": "/UI-With-React/third",
       },
       {
         "id": "04",
         "title": "Fourth",
         "description": "This is the fourth landing page",
-        "link": "/fourth",
+        "link": "/UI-With-React/fourth",
       },
       {
         "id": "05",
         "title": "Fifth",
         "description": "This is the fifth landing page",
-        "link": "/fifth",
+        "link": "/UI-With-React/fifth",
       },
       {
         "id": "06",
         "title": "Sixth",
         "description": "This is the sixth landing page",
-        "link": "/sixth",
+        "link": "/UI-With-React/sixth",
       }
     ],
     dashboardPages: [
@@ -44,7 +44,7 @@ export default
         "id": "1",
         "title": "First",
         "description": "This is the first dashboard page",
-        "link": "/dashboard/first",
+        "link": "/UI-With-React/dashboard/first",
       }
     ]
   }

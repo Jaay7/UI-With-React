@@ -13,13 +13,13 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/first" element={<First />} />
-          <Route path="/second" element={<Second />} />
-          <Route path="/third" element={<Third />} />
-          <Route path="/fourth" element={<Fourth />} />
-          <Route path="/fifth" element={<Fifth />} />
-          <Route path="/sixth" element={<Sixth />} />
-          <Route path="/dashboard/first" element={<DFirst />} />
+          <Route path="/UI-With-React/first" element={<First />} />
+          <Route path="/UI-With-React/second" element={<Second />} />
+          <Route path="/UI-With-React/third" element={<Third />} />
+          <Route path="/UI-With-React/fourth" element={<Fourth />} />
+          <Route path="/UI-With-React/fifth" element={<Fifth />} />
+          <Route path="/UI-With-React/sixth" element={<Sixth />} />
+          <Route path="/UI-With-React/dashboard/first" element={<DFirst />} />
           <Route path="/UI-With-React" element={<Home />} />
         </Routes>
       </BrowserRouter>
