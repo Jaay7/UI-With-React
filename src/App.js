@@ -20,7 +20,7 @@ function App() {
           <Route path="/fifth" element={<Fifth />} />
           <Route path="/sixth" element={<Sixth />} />
           <Route path="/dashboard/first" element={<DFirst />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/UI-With-React" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>
