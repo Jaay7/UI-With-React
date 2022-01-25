@@ -45,6 +45,12 @@ export default
         "title": "First",
         "description": "This is the first dashboard page",
         "link": "/UI-With-React/dashboard/first",
+      },
+      {
+        "id": "2",
+        "title": "Second",
+        "description": "This is the second dashboard page",
+        "link": "/UI-With-React/dashboard/second",
       }
     ]
   }

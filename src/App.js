@@ -7,6 +7,7 @@ import Fifth from './landingpages/Fifth';
 import Home from './Home';
 import DFirst from './dashboard/DFirst';
 import Sixth from './landingpages/Sixth';
+import DSecond from './dashboard/DSecond';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/UI-With-React/fifth" element={<Fifth />} />
           <Route path="/UI-With-React/sixth" element={<Sixth />} />
           <Route path="/UI-With-React/dashboard/first" element={<DFirst />} />
+          <Route path="/UI-With-React/dashboard/second" element={<DSecond />} />
           <Route path="/UI-With-React" element={<Home />} />
         </Routes>
       </BrowserRouter>
