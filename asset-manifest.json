@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/UI-With-React/static/css/main.2f942000.css",
-    "main.js": "/UI-With-React/static/js/main.fcae48c7.js",
+    "main.js": "/UI-With-React/static/js/main.3294f0e8.js",
     "static/media/Burger.png": "/UI-With-React/static/media/Burger.5e0d5c6bc8ff601e84b4.png",
     "static/media/Instagram.png": "/UI-With-React/static/media/Instagram.6030a8815dc4d150b086.png",
     "static/media/Sk-Modernist-Regular.otf": "/UI-With-React/static/media/Sk-Modernist-Regular.748466dca5113482a27f.otf",
@@ -10,10 +10,10 @@
     "static/media/Paypal.png": "/UI-With-React/static/media/Paypal.25b341e7e8db7bd5e1e5.png",
     "index.html": "/UI-With-React/index.html",
     "main.2f942000.css.map": "/UI-With-React/static/css/main.2f942000.css.map",
-    "main.fcae48c7.js.map": "/UI-With-React/static/js/main.fcae48c7.js.map"
+    "main.3294f0e8.js.map": "/UI-With-React/static/js/main.3294f0e8.js.map"
   },
   "entrypoints": [
     "static/css/main.2f942000.css",
-    "static/js/main.fcae48c7.js"
+    "static/js/main.3294f0e8.js"
   ]
 }
