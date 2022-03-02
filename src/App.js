@@ -8,6 +8,8 @@ import Home from './Home';
 import DFirst from './dashboard/DFirst';
 import Sixth from './landingpages/Sixth';
 import DSecond from './dashboard/DSecond';
+import Seventh from './landingpages/Seventh';
+// import Eight from './landingpages/Eight';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
           <Route path="/UI-With-React/fourth" element={<Fourth />} />
           <Route path="/UI-With-React/fifth" element={<Fifth />} />
           <Route path="/UI-With-React/sixth" element={<Sixth />} />
+          <Route path="/UI-With-React/seventh" element={<Seventh />} />
           <Route path="/UI-With-React/dashboard/first" element={<DFirst />} />
           <Route path="/UI-With-React/dashboard/second" element={<DSecond />} />
           <Route path="/UI-With-React" element={<Home />} />

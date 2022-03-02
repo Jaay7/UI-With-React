@@ -37,7 +37,13 @@ export default
         "title": "Sixth",
         "description": "This is the sixth landing page",
         "link": "/UI-With-React/sixth",
-      }
+      },
+      {
+        "id": "07",
+        "title": "Seventh",
+        "description": "This is the seventh landing page",
+        "link": "/UI-With-React/seventh",
+      },
     ],
     dashboardPages: [
       {
