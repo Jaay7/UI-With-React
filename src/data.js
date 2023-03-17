@@ -44,19 +44,33 @@ export default
         "description": "This is the seventh landing page",
         "link": "/UI-With-React/seventh",
       },
+      {
+        "id": "08",
+        "title": "Eight",
+        "description": "This is the eight landing page",
+        "link": "/UI-With-React/eight",
+      },
     ],
     dashboardPages: [
       {
-        "id": "1",
+        "id": "01",
         "title": "First",
         "description": "This is the first dashboard page",
         "link": "/UI-With-React/dashboard/first",
       },
       {
-        "id": "2",
+        "id": "02",
         "title": "Second",
         "description": "This is the second dashboard page",
         "link": "/UI-With-React/dashboard/second",
+      }
+    ],
+    homePages: [
+      {
+        "id": "01",
+        "title": "First",
+        "description": "This is the first home page",
+        "link": "/UI-With-React/homePages/first",
       }
     ]
   }

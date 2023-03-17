@@ -153,11 +153,13 @@ const Home = () => {
             >
               <AntTab label="Landing Pages" />
               <AntTab label="Dashboard Pages" />
+              <AntTab label="Home Pages" />
               {/* <AntTab label="Tab 3" /> */}
             </AntTabs>
             <Box sx={{ p: 3 }} />
             {value === 0 && <LandingPage />}
             {value === 1 && <DashboardPage />}
+            {value === 2 && <HomePage />}
           </Box>
         </Box>
       </div>
@@ -215,6 +217,36 @@ const DashboardPage = () => {
       <div className={classes.cards}>
       {
         data.dashboardPages.map((item, index) => {
+          return (
+            <div className={classes.card} onClick={() => navigate(item.link)} key={index}>
+              <Typography variant="p" style={{fontWeight: 700, color: '#323232', fontSize: 28}}>{item.id}</Typography>
+              <div style={{display: 'flex', flexDirection: 'column', paddingLeft: 16}}>
+                <Typography variant="p" className={classes.cardTitle}>{item.title}</Typography>
+                <Typography variant="p" className={classes.cardSubTitle}>{item.description}</Typography>
+              </div>
+            </div>
+          )
+        })
+      }
+      </div>
+    </div>
+  )
+}
+
+const HomePage = () => {
+  const classes = useStyles();
+  const navigate = useNavigate();
+  return (
+    <div className={classes.main}>
+      <Typography variant="h4" style={{fontWeight: 500, color: '#323232', fontSize: 22}}>Dashboard Pages</Typography>
+      <Box sx={{ p: 2 }} />
+      <Typography variant="p" style={{color: '#727272', fontSize: 14, lineHeight: 2}}>
+      A home page is the top-level page of a website and is typically the first page that visitors will see when they arrive at a website. The home page usually contains an overview of the website, as well as links to the other pages within the website.
+      </Typography>
+      <Box sx={{ p: 2 }} />
+      <div className={classes.cards}>
+      {
+        data.homePages.map((item, index) => {
           return (
             <div className={classes.card} onClick={() => navigate(item.link)} key={index}>
               <Typography variant="p" style={{fontWeight: 700, color: '#323232', fontSize: 28}}>{item.id}</Typography>
