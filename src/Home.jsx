@@ -238,7 +238,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   return (
     <div className={classes.main}>
-      <Typography variant="h4" style={{fontWeight: 500, color: '#323232', fontSize: 22}}>Dashboard Pages</Typography>
+      <Typography variant="h4" style={{fontWeight: 500, color: '#323232', fontSize: 22}}>Home Pages</Typography>
       <Box sx={{ p: 2 }} />
       <Typography variant="p" style={{color: '#727272', fontSize: 14, lineHeight: 2}}>
       A home page is the top-level page of a website and is typically the first page that visitors will see when they arrive at a website. The home page usually contains an overview of the website, as well as links to the other pages within the website.
