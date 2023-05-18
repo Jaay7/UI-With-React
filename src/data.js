@@ -71,6 +71,12 @@ export default
         "title": "First",
         "description": "This is the first home page",
         "link": "/UI-With-React/homePages/first",
+      },
+      {
+        "id": "02",
+        "title": "Second",
+        "description": "This is the second home page",
+        "link": "/UI-With-React/homePages/second",
       }
     ]
   }
